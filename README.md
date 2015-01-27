@@ -5,7 +5,7 @@ The Class itself will be registered to QML as singleton.
 Features:
 * Density independent pixel
 
-Usage in QML:
+### QML:
 ```QML
 import QtQuick 2.4
 import QtQuick.Window 2.2
@@ -24,7 +24,7 @@ ApplicationWindow {
 }
 ```
 
-To register the singleton to your QML:
+### To register the singleton to your QML:
 ```c++
 #include "RGP_UI/RGP_UI.h"
 
@@ -40,6 +40,7 @@ int main(int argc, char *argv[])
 }
 ```
 
+### LICENSE
 ```
 -------------------------------------------------------------------------------
 The MIT License (MIT)
