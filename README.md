@@ -17,7 +17,7 @@ ApplicationWindow {
   
   // creates a 1x1cm rectangle
   Rectangle {
-    width: UI.cm(1) height: UI.cm(1)
+    width: UI.cm(1); height: UI.cm(1)
     anchors.centerIn: parent
     color: "green"
   }
