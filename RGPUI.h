@@ -33,6 +33,7 @@ SOFTWARE.
 #include <QObject>
 #include <QQmlEngine>
 #include <QJSEngine>
+#include <QtQml>
 
 namespace rgp {
 
