@@ -1,5 +1,5 @@
-# RGP_UI
-RGP_UI is a Qt Helper Class for common QML needs.
+# RGPUI
+RGPUI is a Qt Helper Class for common QML needs.
 The Class itself will be registered to QML as singleton.
 
 Features:
@@ -26,7 +26,7 @@ ApplicationWindow {
 
 ### To register the singleton to your QML:
 ```c++
-#include "RGP_UI/RGP_UI.h"
+#include "RGPUI/RGPUI.h"
 
 int main(int argc, char *argv[])
 {
