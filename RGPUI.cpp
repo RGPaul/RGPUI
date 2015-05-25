@@ -27,7 +27,7 @@ SOFTWARE.
 -------------------------------------------------------------------------------
 */
 
-#include "RGP_UI.h"
+#include "RGPUI.h"
 
 #include <QApplication>
 #include <QScreen>
@@ -117,12 +117,12 @@ qreal UI::dp(qreal pixel)
     return pixel * m_dpi / m_baseDpi;
 }
 
-qreal UI::dpmm(qreal mm)
+qreal UI::mm(qreal mm)
 {
     return mm * m_dpi / 25.4;
 }
 
-qreal UI::dpcm(qreal cm)
+qreal UI::cm(qreal cm)
 {
     return cm * m_dpi / 2.54;
 }

@@ -95,14 +95,14 @@ public:
       @param mm Number of millimeters to be converted.
       @return Number of pixels for the given amount of millimeters.
       */
-    Q_INVOKABLE qreal dpmm(qreal mm);
+    Q_INVOKABLE qreal mm(qreal mm);
 
     /**
       @brief Calculates the number of pixels for given centimeters.
       @param cm Number of centimeters to be converted.
       @return Number of pixels for the given amount of centimeters.
       */
-    Q_INVOKABLE qreal dpcm(qreal cm);
+    Q_INVOKABLE qreal cm(qreal cm);
 
     /**
       @brief Singleton type provider function (callback)
