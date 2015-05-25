@@ -5,7 +5,26 @@ The Class itself will be registered to QML as singleton.
 Features:
 * Density independent pixel
 
-### QML:
+## Install
+### Git Submodule
+In your project folder add RGPUI as submodule
+```Bash
+git submodule add git@github.com:Manromen/RGPUI.git
+```
+
+### Qt Pro
+RGPUI requieres c++11
+```
+CONFIG += c++11
+```
+Add to sources and headers
+```
+# RGPUI
+SOURCES += RGPUI/RGPUI.cpp
+HEADERS += RGPUI/RGPUI.h
+```
+## Usage
+### QML
 ```QML
 import QtQuick 2.4
 import QtQuick.Window 2.2
@@ -24,7 +43,7 @@ ApplicationWindow {
 }
 ```
 
-### To register the singleton to your QML:
+### To register the singleton to your QML
 ```c++
 #include "RGPUI/RGPUI.h"
 
