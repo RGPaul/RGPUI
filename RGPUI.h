@@ -27,8 +27,7 @@ SOFTWARE.
 -------------------------------------------------------------------------------
 */
 
-#ifndef __RGP_UI_H__
-#define __RGP_UI_H__
+#pragma once
 
 #include <QObject>
 #include <QQmlEngine>
@@ -135,6 +134,3 @@ private:
     qreal m_contentScaleFactor { 1 };
 };
 }
-
-#endif // __RGP_UI_H__
-
